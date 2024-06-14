@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "attiny",
+          "name": "ATMEGA",
           "architecture": "avr",
           "version": "1.0.0",
           "category": "attiny",
@@ -22,10 +22,10 @@
           "checksum": "SHA-256:bfffa4a700e42ae993895f5eea22bc369ba5ac3ea36eca18ac5f72a05bb60ab5",
           "size": "5005",
           "boards": [
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"}
+            {"name": "ATMEGA328"},
+            {"name": "ATMEGA16"},
+            {"name": "ATMEGA32"},
+            {"name": "ATMEGA8"}
           ],
           "toolsDependencies": [
             {
